@@ -38,7 +38,9 @@ Here's an example command for launching a docker container environment. Please a
 docker run --gpus all --ipc=host --net=host --ulimit memlock=-1 --ulimit stack=67108864 -it --rm nvcr.io/nvidia/pytorch:25.02-py3 bash
 ```
 
-Or run directly in jupyter notebook
+Or run directly in jupyter notebook using this.
+You don't need to setup anything. It's ready to go.
+It will open up a jupyter notebook.
 
 ```bash
 docker run --gpus all --ipc=host --net=host \
